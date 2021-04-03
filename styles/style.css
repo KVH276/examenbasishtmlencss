@@ -48,10 +48,11 @@ nav ul li {
 }
 nav ul li:hover {
   color: var(--oranje);
+  cursor: pointer;
 }
 
-nav ul li a .logo {
-  margin-right: auto;
+nav a .logo {
+  margin-right: 0 auto;
   display: block;
 }
 nav .container {
@@ -62,6 +63,7 @@ nav .container {
 nav .container ul li a {
   margin-left: 23px;
 }
+
 section {
   display: flex;
 }
@@ -131,15 +133,9 @@ section .right .form ul li:last-child {
   color: var(--wit);
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  cursor: pointer;
 }
-section .right .form .button2 p {
-  font-family: Open Sans, sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  background-color: var(--oranje);
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-}
+
 main .container {
   margin-top: 30px;
   display: flex;

@@ -115,10 +115,13 @@ section .right .form h5 {
 section .right .form ul li {
     font-family: Open Sans, sans-serif;
     font-size: 14px;
-    color: var(--lichtgrijs);
+    color: var(--grijs);
     background-color: var(--wit);
     padding-left: 50px;
     padding-top: 40px;
+}
+section .right .form ul li:nth-child(3){
+    padding-bottom: 40px;
 }
 section .right .form ul li:last-child {
     padding-top: 21px;;
@@ -126,6 +129,9 @@ section .right .form ul li:last-child {
     text-align: center;
     padding-left: 0px;
     background-color: var(--oranje);
+    color: var(--wit);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 }
 section .right .form .button2 p{

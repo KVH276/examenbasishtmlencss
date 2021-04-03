@@ -75,7 +75,6 @@ section .left {
 section .left a .logo-groot {
   display: flex;
   display: block;
-  height: 22px;
 }
 section .left h3 {
   font-family: Raleway, sans-serif;
@@ -84,6 +83,8 @@ section .left h3 {
   text-transform: uppercase;
   line-height: 44px;
   color: var(--wit);
+  margin-top: 35px;
+  margin-bottom: 40px;
 }
 header section .left p {
   font-family: Raleway, sans-serif;
@@ -91,6 +92,8 @@ header section .left p {
   font-weight: 300;
   line-height: 23px;
   color: var(--lichtgrijs);
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 header section .right {

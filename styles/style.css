@@ -64,7 +64,7 @@ nav .container ul li a {
   margin-left: 23px;
 }
 
-section .left-part {
+section .left {
   display: flex;
   position: relative;
   width: calc(100% - 422px);
@@ -79,7 +79,7 @@ h3 {
   position: absolute;
   top: 266px;
 }
-section .left-part p {
+header section .left p {
   font-family: Raleway, sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -89,7 +89,7 @@ section .left-part p {
   top: 425px;
 }
 
-header section .right-part {
+header section .right {
   display: flex;
   position: relative;
 }
@@ -97,8 +97,13 @@ h4 {
   font-family: Open Sans, sans-serif;
   font-size: 20px;
   font-weight: 700;
-  background-color: var(--grijs);
-  margin-top: 20px;
+  background-color: var(--lichtgrijs);
+  position: absolute;
+  top: 228px;
+  left: 840px;
+  padding: 20px 200px 20px 50px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 main .container {
   margin-top: 30px;

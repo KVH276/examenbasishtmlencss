@@ -17,4 +17,4 @@ I'm putting this on Github as required by the teacher.
 
 ### Surge
 
-Link:
+Link: mislukttotenmet.surge.sh

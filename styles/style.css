@@ -65,16 +65,14 @@ nav .container ul li a {
 }
 section {
   display: flex;
-  position: relative;
 }
 section .left {
   width: calc(100% - 422px);
-  position: absolute;
-  top: 110px;
 }
 section .left a .logo-groot {
   display: flex;
   display: block;
+  padding-top: 110px;
 }
 section .left h3 {
   font-family: Raleway, sans-serif;
@@ -93,12 +91,29 @@ header section .left p {
   line-height: 23px;
   color: var(--lichtgrijs);
   margin-bottom: 40px;
-  margin-top: 40px;
 }
 
 header section .right {
   display: flex;
   position: relative;
+}
+section .right .form {
+}
+section .right .form p {
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+section .right .form ul li {
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    color: var(--lichtgrijs)
+}
+}
+section .right .form .button p {
+  font-family: Open Sans, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
 }
 main .container {
   margin-top: 30px;

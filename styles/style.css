@@ -65,6 +65,7 @@ nav .container ul li a {
 }
 section {
   display: flex;
+  position: relative;
 }
 section .left {
   width: calc(100% - 422px);
@@ -95,25 +96,37 @@ header section .left p {
 
 header section .right {
   display: flex;
-  position: relative;
 }
 section .right .form {
+    width: 360px;
+    height: 362px;
+    margin-top: 140px;
+    margin-left: 224px;
 }
-section .right .form p {
+section .right .form h5 {
   font-family: Open Sans, sans-serif;
   font-size: 20px;
   font-weight: 700;
+  padding: 18px 25px 18px 50px;
+  background-color: var(--grijs);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 section .right .form ul li {
     font-family: Open Sans, sans-serif;
     font-size: 14px;
-    color: var(--lichtgrijs)
+    color: var(--lichtgrijs);
+    background-color: var(--wit);
+    padding-bottom: 40px;
 }
 }
-section .right .form span .button2 p {
+section .right .form .button2 p{
   font-family: Open Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;
+  background-color: var(--oranje);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 main .container {
   margin-top: 30px;

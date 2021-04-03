@@ -110,7 +110,7 @@ section .right .form ul li {
     color: var(--lichtgrijs)
 }
 }
-section .right .form .button p {
+section .right .form span .button2 p {
   font-family: Open Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;

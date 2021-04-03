@@ -65,13 +65,19 @@ nav .container ul li a {
 }
 section {
   display: flex;
+  position: relative;
 }
 section .left {
-  display: flex;
-  position: relative;
   width: calc(100% - 422px);
+  position: absolute;
+  top: 110px;
 }
-h3 {
+section .left a .logo-groot {
+  display: flex;
+  display: block;
+  height: 22px;
+}
+section .left h3 {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 36px;

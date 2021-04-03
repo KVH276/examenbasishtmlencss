@@ -45,6 +45,7 @@ nav ul li {
   text-decoration: none;
   text-transform: capitalize;
   margin-right: 44px;
+  align-items: center;
 }
 nav ul li:hover {
   color: var(--oranje);
@@ -78,7 +79,7 @@ h3 {
   position: absolute;
   top: 266px;
 }
-section .right-part p {
+section .left-part p {
   font-family: Raleway, sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -88,6 +89,17 @@ section .right-part p {
   top: 425px;
 }
 
+header section .right-part {
+  display: flex;
+  position: relative;
+}
+h4 {
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: var(--grijs);
+  margin-top: 20px;
+}
 main .container {
   margin-top: 30px;
   display: flex;

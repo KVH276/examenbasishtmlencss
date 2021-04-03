@@ -41,12 +41,47 @@ nav ul li {
   color: var(--lichtgrijs);
   font-size: 14px;
   font-weight: 600;
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
   text-decoration: none;
   text-transform: capitalize;
   padding: 23px;
 }
+nav ul li:hover {
+  color: var(--oranje);
+}
+
 nav ul li a .logo {
   margin-right: auto;
   display: block;
+}
+
+main .container {
+  margin-top: 30px;
+  display: flex;
+}
+span {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+p {
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+main ul {
+  display: flex;
+}
+main ul li a {
+  height: 44px;
+  display: flex;
+  display: block;
+  text-align: center;
+  color: var(--grijs);
+  padding: 0, 32px;
 }

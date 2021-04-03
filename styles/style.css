@@ -18,7 +18,6 @@ header {
 }
 
 main {
-  height: 103px;
   background-color: var(--wit);
 }
 .container {
@@ -65,7 +64,6 @@ nav .container ul li a {
 }
 section {
   display: flex;
-  position: relative;
 }
 section .left {
   width: calc(100% - 422px);
@@ -74,6 +72,7 @@ section .left a .logo-groot {
   display: flex;
   display: block;
   padding-top: 110px;
+  margin-bottom: 148px;
 }
 section .left h3 {
   font-family: Raleway, sans-serif;
@@ -85,7 +84,7 @@ section .left h3 {
   margin-top: 30px;
   margin-bottom: 35px;
 }
-header section .left p {
+section .left p {
   font-family: Raleway, sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -94,47 +93,46 @@ header section .left p {
   margin-bottom: 40px;
 }
 
-header section .right {
+section .right {
   display: flex;
 }
 section .right .form {
-    width: 360px;
-    height: 362px;
-    margin-top: 140px;
-    margin-left: 224px;
+  width: 360px;
+  height: 362px;
+  margin-top: 140px;
+  margin-left: 224px;
 }
 section .right .form h5 {
   font-family: Open Sans, sans-serif;
   font-size: 20px;
   font-weight: 700;
   padding: 18px 25px 18px 50px;
-  background-color: var(--grijs);
+  background-color: var(--lichtgrijs);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
 section .right .form ul li {
-    font-family: Open Sans, sans-serif;
-    font-size: 14px;
-    color: var(--grijs);
-    background-color: var(--wit);
-    padding-left: 50px;
-    padding-top: 40px;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  color: var(--grijs);
+  background-color: var(--wit);
+  padding-left: 50px;
+  padding-top: 40px;
 }
-section .right .form ul li:nth-child(3){
-    padding-bottom: 40px;
+section .right .form ul li:nth-child(3) {
+  padding-bottom: 40px;
 }
 section .right .form ul li:last-child {
-    padding-top: 21px;;
-    padding-bottom: 21px;
-    text-align: center;
-    padding-left: 0px;
-    background-color: var(--oranje);
-    color: var(--wit);
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  text-align: center;
+  padding-left: 0px;
+  background-color: var(--oranje);
+  color: var(--wit);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
-}
-section .right .form .button2 p{
+section .right .form .button2 p {
   font-family: Open Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;

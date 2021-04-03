@@ -66,6 +66,7 @@ nav .container ul li a {
 section .left-part {
   display: flex;
   position: relative;
+  width: calc(100% - 422px);
 }
 h3 {
   font-family: Raleway, sans-serif;
@@ -77,12 +78,14 @@ h3 {
   position: absolute;
   top: 266px;
 }
-section .left-part p {
-  font-family: Raleway;
+section .right-part p {
+  font-family: Raleway, sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 23px;
-  color: var(--wit);
+  color: var(--lichtgrijs);
+  position: absolute;
+  top: 425px;
 }
 
 main .container {
